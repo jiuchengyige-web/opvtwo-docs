@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/images/mark.png" alt="OPVTWO" width="150">
+  <img src="./assets/images/logo.png" alt="OPVTWO 流控系统" width="112">
   <h1>OPVTWO 流控系统</h1>
   <p>让流控、用户、代理与商城在一套系统里运转。</p>
 
@@ -12,13 +12,13 @@
   </p>
 </div>
 
-> 本仓库仅用于 OPVTWO 产品介绍、界面展示和使用文档，**不包含核心程序、数据库、授权接口或服务器配置**。
+> 本仓库仅用于 OPVTWO 流控系统产品介绍、界面展示和使用文档，**不包含核心程序、数据库、授权接口或服务器配置**。
 
-![OPVTWO 管理后台](./assets/images/showcase-01.png)
+![OPVTWO 流控系统管理后台](./assets/images/showcase-01.png)
 
-## OPVTWO 是什么
+## OPVTWO 流控系统是什么
 
-OPVTWO 是面向流控运营场景的一体化管理系统。它将 OP 与 V2 节点、用户订阅、线路推送、五级代理分销、发卡商城、订单支付和授权验证放在同一套后台中，减少重复配置与数据割裂。
+OPVTWO 流控系统是面向流控运营场景的一体化管理系统。它将 OP 与 V2 节点、用户订阅、线路推送、五级代理分销、发卡商城、订单支付和授权验证放在同一套后台中，减少重复配置与数据割裂。
 
 ## 核心能力
 

@@ -47,7 +47,7 @@ p { color: var(--muted); }
 .header-inner { width: min(calc(100% - 40px), var(--container)); height: 72px; margin: 0 auto; display: flex; align-items: center; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; flex: 0 0 auto; }
 .brand-mark { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 12px; background: #fff; overflow: hidden; }
-.brand-mark img { width: 37px; height: auto; }
+.brand-mark img { width: 44px; height: 44px; object-fit: contain; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand-text b { font-size: 17px; color: #0b2f85; letter-spacing: .2px; }
 .brand-text small { margin-top: 5px; font-size: 11px; color: var(--muted); font-weight: 700; }
@@ -171,7 +171,7 @@ details p { max-width: 700px; padding: 0 38px 19px 0; margin: 0; font-size: 14px
 .footer-inner p { margin: 0; font-size: 12px; }
 .footer-brand { margin-right: auto; }
 .footer-brand .brand-mark { width: 38px; height: 38px; border-radius: 9px; }
-.footer-brand .brand-mark img { width: 30px; }
+.footer-brand .brand-mark img { width: 36px; height: 36px; }
 .footer-brand .brand-text b { font-size: 14px; }
 .footer-brand .brand-text small { font-size: 10px; }
 .footer-links { display: flex; gap: 17px; }
@@ -255,7 +255,7 @@ td { color: var(--muted); }
   .nav-links a::after { display: none; }
   .header-actions .text-link { display: none; }
   .brand-mark { width: 40px; height: 40px; }
-  .brand-mark img { width: 32px; }
+  .brand-mark img { width: 36px; height: 36px; }
   .brand-text b { font-size: 15px; }
   .hero { padding: 55px 0 36px; }
   .hero h1 { margin-top: 19px; font-size: 35px; line-height: 1.3; }
