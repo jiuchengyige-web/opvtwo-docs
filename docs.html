@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1769e0">
+  <meta name="description" content="OPVTWO 流控系统使用文档：功能说明、快速开始、环境要求、版本更新与常见问题。">
+  <title>使用文档｜OPVTWO 流控系统</title>
+  <link rel="icon" href="assets/images/mark.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/lucide.min.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body class="docs-page">
+  <a class="skip-link" href="#doc-content">跳到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="OPVTWO 文档首页"><span class="brand-mark"><img src="assets/images/mark.png" alt="" width="38" height="27"></span><span class="brand-text"><b>OPVTWO</b><small>产品文档</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><i data-lucide="menu"></i><span>导航</span></button>
+      <nav class="nav-links" id="site-nav" data-nav><a href="index.html#features">核心能力</a><a href="index.html#showcase">界面预览</a><a class="active" href="docs.html">使用文档</a><a href="#faq">常见问题</a></nav>
+      <div class="header-actions"><a class="text-link" href="https://github.com/jiuchengyige-web/opvtwo-docs">GitHub</a><a class="btn btn-primary btn-sm" href="https://home.opvtwo.com/"><span>进入官网</span><i data-lucide="arrow-up-right"></i></a></div>
+    </div>
+  </header>
+
+  <div class="docs-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">首页</a><i data-lucide="chevron-right"></i><span>使用文档</span></div>
+      <h1>OPVTWO 使用文档</h1>
+      <p>了解产品结构、服务器要求、部署入口与常用功能。具体安装命令和版本信息统一以官网为准。</p>
+    </div>
+  </div>
+
+  <div class="container docs-shell">
+    <aside class="docs-sidebar">
+      <b>本页目录</b>
+      <a href="#overview">产品概览</a>
+      <a href="#features">功能模块</a>
+      <a href="#quick-start">快速开始</a>
+      <a href="#requirements">环境要求</a>
+      <a href="#security">安全说明</a>
+      <a href="#faq">常见问题</a>
+      <a class="sidebar-cta" href="https://home.opvtwo.com/">前往官网 <i data-lucide="arrow-up-right"></i></a>
+    </aside>
+
+    <main class="docs-content" id="doc-content">
+      <section id="overview" class="doc-section">
+        <span class="doc-label">OVERVIEW</span>
+        <h2>产品概览</h2>
+        <p>OPVTWO 是一套面向流控运营场景的管理系统。它将节点、用户、订阅、线路、代理、商城、订单和授权放在同一套后台中，适合需要统一管理运营数据的团队。</p>
+        <div class="info-grid">
+          <div><i data-lucide="server"></i><b>双内核管理</b><span>OP 与 V2 节点集中接入。</span></div>
+          <div><i data-lucide="users"></i><b>用户中心</b><span>套餐、流量、冻结与副号。</span></div>
+          <div><i data-lucide="network"></i><b>代理体系</b><span>五级分销与固定成本模式。</span></div>
+          <div><i data-lucide="store"></i><b>商业运营</b><span>发卡商城、支付与订单。</span></div>
+        </div>
+        <div class="doc-callout"><i data-lucide="info"></i><p><b>说明：</b>本 GitHub 仓库只提供产品文档和界面展示，不包含核心程序、数据库或授权接口。</p></div>
+      </section>
+
+      <section id="features" class="doc-section">
+        <span class="doc-label">MODULES</span>
+        <h2>功能模块</h2>
+        <div class="module-list">
+          <article><span>01</span><div><h3>节点与订阅</h3><p>集中管理 OP、V2 节点，查看在线人数、用户流量与节点状态，并为用户提供订阅模式配置。</p></div></article>
+          <article><span>02</span><div><h3>用户与套餐</h3><p>管理账号状态、到期时间、剩余流量、冻结、副号、签到、注册赠送和套餐升级。</p></div></article>
+          <article><span>03</span><div><h3>线路管理</h3><p>支持线路分类、排序、推送线路与节点安装信息维护，减少手工重复配置。</p></div></article>
+          <article><span>04</span><div><h3>代理与分销</h3><p>提供百分比分销和固定拿货成本两种模式，支持下级开通、续费、余额与价格限制。</p></div></article>
+          <article><span>05</span><div><h3>商城与发卡</h3><p>自营商城与代理店铺共用订单流程，支持卡密、在线支付、未支付订单清理与退款处理。</p></div></article>
+          <article><span>06</span><div><h3>运营与安全</h3><p>包含优惠活动、广告域名拦截、授权校验、过期踢线及后台安全设置。</p></div></article>
+        </div>
+      </section>
+
+      <section id="quick-start" class="doc-section">
+        <span class="doc-label">QUICK START</span>
+        <h2>快速开始</h2>
+        <p>部署前请先确认服务器环境和授权方式。安装命令可能随版本变化，因此请从官方入口获取最新内容。</p>
+        <ol class="steps-list">
+          <li><b>01</b><div><h3>准备 Linux 服务器</h3><p>建议 Linux x86_64、1GB 以上内存，并准备 root 权限。安装前先备份重要数据。</p></div></li>
+          <li><b>02</b><div><h3>访问官方安装入口</h3><p>前往 home.opvtwo.com 获取当前版本的安装命令和安装说明。</p><a href="https://home.opvtwo.com/">打开官网安装入口 <i data-lucide="arrow-up-right"></i></a></div></li>
+          <li><b>03</b><div><h3>完成授权和基础配置</h3><p>安装完成后，配置节点、套餐、支付方式、用户规则和代理设置，再进行小范围测试。</p></div></li>
+        </ol>
+      </section>
+
+      <section id="requirements" class="doc-section">
+        <span class="doc-label">REQUIREMENTS</span>
+        <h2>环境要求</h2>
+        <div class="table-wrap"><table><thead><tr><th>项目</th><th>建议</th><th>说明</th></tr></thead><tbody><tr><td>系统</td><td>Linux x86_64</td><td>以官网当前支持范围为准</td></tr><tr><td>权限</td><td>root</td><td>安装与节点配置需要管理员权限</td></tr><tr><td>内存</td><td>1GB 以上</td><td>生产环境建议预留更多资源</td></tr><tr><td>网络</td><td>可访问外部网络</td><td>安装依赖与节点通信需要</td></tr><tr><td>授权</td><td>正版卡密</td><td>通过官方渠道购买与激活</td></tr></tbody></table></div>
+      </section>
+
+      <section id="security" class="doc-section">
+        <span class="doc-label">SECURITY</span>
+        <h2>安全说明</h2>
+        <ul class="doc-list"><li>不要从非官方来源下载安装包或使用来源不明的修改版本。</li><li>后台管理员密码、数据库密码、支付密钥和授权接口必须独立设置并妥善保存。</li><li>开放端口应遵循最小权限原则，后台建议限制访问来源并启用 HTTPS。</li><li>升级、恢复数据库或修改节点前，先完成数据库与配置文件备份。</li><li>公开截图或文档时，不要暴露客户账号、订单、密钥、服务器 IP 和接口令牌。</li></ul>
+      </section>
+
+      <section id="faq" class="doc-section">
+        <span class="doc-label">FAQ</span>
+        <h2>常见问题</h2>
+        <details open><summary>文档为什么没有完整源码？</summary><p>OPVTWO 是商业系统，GitHub 公开仓库用于产品展示和引流。核心源码、数据库和授权接口保持私有。</p></details>
+        <details><summary>安装命令在哪里获取？</summary><p>统一从 home.opvtwo.com 获取，官网会同步最新版本、授权与售后信息。</p></details>
+        <details><summary>支持哪些客户端和节点？</summary><p>产品涉及 OP 与 V2 两套体系。具体协议、节点和客户端支持范围以当前版本和官网说明为准。</p></details>
+        <details><summary>部署后如何继续维护？</summary><p>关注官网更新说明，升级前备份数据库和配置文件，并对关键功能进行回归测试。</p></details>
+      </section>
+
+      <div class="docs-end-cta"><div><h2>查看最新版本与授权信息</h2><p>安装命令、版本说明和售后入口以 OPVTWO 官网为准。</p></div><a class="btn btn-primary" href="https://home.opvtwo.com/"><span>进入 OPVTWO 官网</span><i data-lucide="arrow-up-right"></i></a></div>
+    </main>
+  </div>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark"><img src="assets/images/mark.png" alt="" width="32" height="23"></span><span class="brand-text"><b>OPVTWO</b><small>产品文档</small></span></a><p>© <span data-year>2026</span> OPVTWO. 产品文档与界面展示。</p><div class="footer-links"><a href="https://home.opvtwo.com/">官网</a><a href="https://github.com/jiuchengyige-web/opvtwo-docs">GitHub</a><a href="index.html">首页</a></div></div></footer>
+</body>
+</html>
